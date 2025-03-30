@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+    <title>BOGO Product Selector</title>
+</head>
+
+<body>
+    <div class="bogo-container">
+        <div class="container">
+            <h1 class="bogo-title">YAY! It's BOGO</h1>
+        </div>
+        <div id="unit1" class="unit-selector">
+            <div class="unit-selector-unit1-a">
+                <div class="unit-selector-bundle-1">
+                    <div class="unit-radio">
+                        <input type="radio" id="1unit" name="unitSelection" value="1" />
+                        <label for="1unit">1 Unit <span class="discount-tag">10% Off</span></label>
+                    </div>
+                    <p class="price-type">Standard Price</p>
+                </div>
+
+                <div class="total-section">
+                    <span>$10.00 USD</span>
+                    <span class="original-price"><s>$24.00 USD</s></span>
+                </div>
+            </div>
+
+            <div class="unit-details">
+                <select aria-label="Size">
+                    <option>Size</option>
+                    <option>S</option>
+                </select>
+                <select aria-label="Color">
+                    <option>Color</option>
+                    <option>Black</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="unit2" class="unit-selector">
+            <div class="unit-selector-unit1-a">
+                <div class="most-popular">MOST POPULAR</div>
+                <div class="unit-radio">
+                    <input type="radio" id="2unit" name="unitSelection" value="2" />
+                    <label for="2unit">2 Unit <span class="discount-tag">20% Off</span></label>
+                </div>
+
+                <div class="total-section">
+                    <span>$18.00 USD</span>
+                    <span class="original-price"><s>$24.00 USD</s></span>
+                </div>
+            </div>
+
+            <div class="unit-details">
+                <select aria-label="Size 1">
+                    <option>Size</option>
+                    <option>S</option>
+                </select>
+                <select aria-label="Color 1">
+                    <option>Color</option>
+                    <option>Black</option>
+                    <option>yellow</option>
+                </select>
+                <select aria-label="Size 2">
+                    <option>Size</option>
+                    <option>S</option>
+                </select>
+                <select aria-label="Color 2">
+                    <option>Color</option>
+                    <option>Black</option>
+                    <option>yellow</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="unit3" class="unit-selector">
+            <div class="unit-selector-unit1-a">
+                <div class="unit-radio">
+                    <input type="radio" id="3unit" name="unitSelection" value="3" />
+                    <label for="3unit">3 Unit <span class="discount-tag">30% Off</span></label>
+                </div>
+
+                <div class="total-section">
+                    <span>$24.00 USD</span>
+                    <span class="original-price"><s>$24.00 USD</s></span>
+                </div>
+            </div>
+
+            <div class="unit-details">
+                <select aria-label="Size 1">
+                    <option>Size</option>
+                    <option>S</option>
+                </select>
+                <select aria-label="Color 1">
+                    <option>Color</option>
+                    <option>Black</option>
+                    <option>yellow</option>
+                </select>
+                <select aria-label="Size 2">
+                    <option>Size</option>
+                    <option>S</option>
+                </select>
+                <select aria-label="Color 2">
+                    <option>Color</option>
+                    <option>Black</option>
+                    <option>yellow</option>
+                </select>
+                <select aria-label="Size 3">
+                    <option>Size</option>
+                    <option>S</option>
+                   
+                </select>
+                <select aria-label="Color 3">
+                    <option>Color</option>
+                    <option>Black</option>
+                    <option>yellow</option>
+                </select>
+            </div>
+        </div>
+        <div class="price-container">
+            <span class="free-delivery">Free Delivery</span>
+            <span class="total-price">Total : $18.00 USD</span>
+        </div>
+
+        <button class="add-to-cart"> <span>+ </span>  Add to Cart</button>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
